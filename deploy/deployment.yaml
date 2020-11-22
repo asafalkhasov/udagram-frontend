@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: udagram-frontend
-          image: asafalkhasov/udagram-frontend
+          image: asafalkhasov/udagram-frontend:3.1
           resources:
             limits:
               memory: "128Mi"
