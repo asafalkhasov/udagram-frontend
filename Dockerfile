@@ -1,4 +1,4 @@
-FROM node:13 as builder
+FROM node:12 as builder
 WORKDIR /usr/src/app
 COPY package*.json ./
 #Install dependecies and build the app
